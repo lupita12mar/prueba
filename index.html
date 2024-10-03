@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEPORTES</title>
+    <!-- Estilos CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #0044cc;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #444;
+        }
+        .banner {
+            background-image: url('https://images.pexels.com/photos/114296/pexels-photo-114296.jpeg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .banner h2 {
+            font-size: 4em;
+            margin: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .sports-section {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 40px;
+        }
+        .sports-section div {
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .sports-section div img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .sports-section div h3 {
+            margin-top: 15px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>Mundo de Deportes</h1>
+    </header>
+
+    <!-- Navegación -->
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Fútbol</a>
+        <a href="#">Baloncesto</a>
+        <a href="#">Tenis</a>
+        <a href="#">Más Deportes</a>
+    </nav>
+
+    <!-- Banner -->
+    <div class="banner">
+        <h2>Vive la Pasión del Deporte</h2>
+    </div>
+
+    <!-- Sección de deportes destacados -->
+    <div class="container">
+        <div class="sports-section">
+            <div>
+                <img src="https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg" alt="Fútbol">
+                <h3>Fútbol</h3>
+                <p>Todo sobre la liga, partidos internacionales, y tus jugadores favoritos.</p>
+            </div>
+            <div>
+                <img src="https://images.pexels.com/photos/160207/pexels-photo-160207.jpeg" alt="Baloncesto">
+                <h3>Baloncesto</h3>
+                <p>Entérate de lo último en la NBA y competiciones de todo el mundo.</p>
+            </div>
+            <div>
+                <img src="https://images.pexels.com/photos/114296/pexels-photo-114296.jpeg" alt="Tenis">
+                <h3>Tenis</h3>
+                <p>Descubre los torneos más importantes y sigue a tus jugadores favoritos.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Mundo de Deportes. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
+
+
